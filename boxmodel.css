@@ -1,4 +1,6 @@
 body {
+  margin-left: auto;
+  margin-right: auto;
   background-color: #441E13;
   color: white;
 }
@@ -34,6 +36,8 @@ div {
   height: 50px;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 20px;
+  max-width: 920px;
   background-color: rgba(0, 0, 0, 0.25);
   padding: 0px 10px;
   padding-top: 18px;
@@ -47,4 +51,61 @@ div {
 }
 .nav li:last-child {
   border-right: none;
+}
+.section {
+margin-left: auto;
+margin-right: auto;
+padding-bottom: 5px;
+width: 940px;
+height: 200px;
+background-color: #87A984
+}
+
+h1{
+  font-family: sans-serif;
+  font-weight: bold;
+  padding-top: 35px;
+  font-size: 2.5rem;
+}
+p{
+  font-family: sans-serif;
+  color: #EFEEDA;
+  padding-right: 300px;
+}
+
+img{
+  float: left;
+}
+
+.aside {
+  padding-top: 30px;
+  width: 200px;
+  height: 610px;
+  font-family: sans-serif;
+  list-style-type: none;
+  background-color: #96AFAC;
+}
+.aside li {
+  display: block;
+  border-bottom: 0.5px solid white;
+  padding: 10px;
+  margin-right: 40px;
+ }
+
+.article {
+  background-color: #D8D8C5;
+  margin-left: auto;
+  margin-right: auto;
+  width:935px;
+}
+h2 {float: right;
+padding-right: 500px;
+padding-top: 15px;
+font-family: sans-serif;
+font-weight: bold;
+color: #516E7C;
+}
+span {
+  float: right;
+  margin-left: 200px;
 }
